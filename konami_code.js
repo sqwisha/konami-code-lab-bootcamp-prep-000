@@ -19,9 +19,9 @@ function triggerKeyDown(key) {
 }
 
 function onKeyDownHandler(e) {
-  const keyType = e.key;
+  const key = e.key;
 
-  if (keyType = codes[index]) {
+  if (key == codes[index]) {
     index++;
 
     if (index === codes.length) {
