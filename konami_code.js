@@ -13,7 +13,7 @@ const codes = [
 
 let index = 0;
 
-function triggerKeyDown(key) {
+function whenKeyDown(key) {
   const keyboardEvent = new KeyboardEvent("keydown", { key });
   document.body.dispatchEvent(keyboardEvent);
 }
